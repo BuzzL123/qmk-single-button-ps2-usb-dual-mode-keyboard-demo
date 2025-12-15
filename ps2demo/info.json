@@ -1,0 +1,43 @@
+{
+    "keyboard_name": "PS2 USB Single Button",
+    "manufacturer": "BJL",
+    "url": "",
+    "maintainer": "Betzalel J. Lewis",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x6060",
+        "device_version": "1.0.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "matrix_pins": {
+        "direct": [
+            ["GP15"]
+        ]
+    },
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "mousekey": false,
+        "extrakey": false,
+        "console": true,
+        "command": false,
+        "nkro": false,
+        "backlight": false,
+        "rgblight": false,
+        "audio": false
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "matrix": [0, 0],
+                    "x": 0,
+                    "y": 0,
+                    "label": "A"
+                }
+            ]
+        }
+    }
+}
