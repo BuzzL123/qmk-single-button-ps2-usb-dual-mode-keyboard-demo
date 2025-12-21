@@ -8,7 +8,9 @@ BOOTLOADER = rp2040
 #   Only define build-specific settings here
 
 # Custom source files for PS/2 device implementation
-SRC += ps2_device.c keyboard.c
+SRC += ps2_keyboard.c \
+       ps2_mouse.c \
+       kb.c
 
 # Compiler optimization
 OPT_DEFS += -O2
